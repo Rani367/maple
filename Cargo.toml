@@ -1,0 +1,14 @@
+[package]
+name = "repolens"
+version = "0.1.0"
+edition = "2024"
+description = "A fast, local repo map, wiki, and context pack generator."
+license = "MIT"
+repository = "https://github.com/Rani367/repolens"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.37", features = ["derive"] }
+ignore = "0.4.23"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
