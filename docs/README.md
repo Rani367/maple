@@ -9,6 +9,7 @@ Start here:
 3. [CLI spec](CLI_SPEC.md) - command surface and expected behavior.
 4. [Data model](DATA_MODEL.md) - core repository graph and output artifacts.
 5. [Implementation phases](IMPLEMENTATION_PHASES.md) - the full build plan.
+6. [Releasing](RELEASING.md) - release notes and future binary workflow shape.
 
 Phase details:
 
@@ -22,4 +23,3 @@ Phase details:
 - [Phase 07: Agent Integrations](phases/07-agent-integrations.md)
 - [Phase 08: Quality And Performance](phases/08-quality-and-performance.md)
 - [Phase 09: Launch And Growth](phases/09-launch-and-growth.md)
-

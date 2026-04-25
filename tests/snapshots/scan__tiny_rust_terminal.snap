@@ -1,0 +1,14 @@
+---
+source: tests/scan.rs
+expression: normalized
+---
+Maple scan
+
+Root:  <ROOT>
+Files: 4
+Size:  206 B
+
+Languages:
+  Markdown         1 files        51 B
+  Rust             2 files        69 B
+  TOML             1 files        86 B

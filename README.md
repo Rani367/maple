@@ -149,12 +149,26 @@ The full implementation plan lives in [docs](docs/README.md). High-level phases:
 
 ## Development
 
+The current crate is intentionally small, with responsibilities split by module:
+
+| Module | Responsibility |
+| --- | --- |
+| `src/main.rs` | Thin binary entrypoint. |
+| `src/cli.rs` | CLI parsing and command dispatch. |
+| `src/config.rs` | Default settings and future config loading. |
+| `src/scan.rs` | Local directory walking, language counts, and scan reports. |
+| `src/output.rs` | Human-readable terminal output. |
+
 ```sh
 cargo fmt
-cargo check
+cargo clippy --all-targets -- -D warnings
+cargo test --all-targets
 cargo run -- scan .
 cargo run -- scan . --json
 ```
+
+Integration fixtures live under `tests/fixtures/`, and snapshot assertions
+normalize absolute paths so they stay stable across machines.
 
 ## Contributing
 

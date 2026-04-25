@@ -1,0 +1,9 @@
+{
+  "name": "tiny-typescript-app",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

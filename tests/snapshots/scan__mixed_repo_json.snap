@@ -1,0 +1,35 @@
+---
+source: tests/scan.rs
+expression: report
+---
+{
+  "bytes": 374,
+  "files": 8,
+  "languages": {
+    "JSON": {
+      "bytes": 49,
+      "files": 1
+    },
+    "Markdown": {
+      "bytes": 139,
+      "files": 2
+    },
+    "Other": {
+      "bytes": 64,
+      "files": 2
+    },
+    "Shell": {
+      "bytes": 31,
+      "files": 1
+    },
+    "TOML": {
+      "bytes": 38,
+      "files": 1
+    },
+    "TypeScript": {
+      "bytes": 53,
+      "files": 1
+    }
+  },
+  "root": "<ROOT>"
+}
