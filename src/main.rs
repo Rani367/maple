@@ -36,7 +36,7 @@ fn main() -> Result<()> {
 }
 
 #[derive(Debug, Parser)]
-#[command(name = "repolens")]
+#[command(name = "repoprism")]
 #[command(about = "Map, explain, and package any repository.")]
 #[command(version)]
 struct Cli {
@@ -187,7 +187,7 @@ fn should_descend(path: &Path) -> bool {
 }
 
 fn print_report(report: &ScanReport) {
-    println!("RepoLens scan");
+    println!("RepoPrism scan");
     println!();
     println!("Root:  {}", report.root.display());
     println!("Files: {}", report.files);

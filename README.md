@@ -1,17 +1,17 @@
-# RepoLens
+# RepoPrism
 
 Understand any repository in seconds.
 
-RepoLens is a fast, local, single-binary tool that turns a codebase into a map,
+RepoPrism is a fast, local, single-binary tool that turns a codebase into a map,
 wiki, and AI-ready context pack. It starts as a Rust CLI and will grow into a
 beautiful local web view for exploring architecture, important files, entry
 points, tests, and dependencies.
 
 ```sh
-repolens scan .
-repolens scan github.com/zed-industries/zed
-repolens serve .
-repolens pack .
+repoprism scan .
+repoprism scan github.com/zed-industries/zed
+repoprism serve .
+repoprism pack .
 ```
 
 ## Vision
@@ -32,6 +32,15 @@ repository while respecting `.gitignore`.
 cargo run -- scan .
 cargo run -- scan . --json
 ```
+
+## Project Docs
+
+- [Docs index](docs/README.md)
+- [Product plan](docs/PRODUCT_PLAN.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [CLI spec](docs/CLI_SPEC.md)
+- [Data model](docs/DATA_MODEL.md)
+- [Implementation phases](docs/IMPLEMENTATION_PHASES.md)
 
 ## License
 

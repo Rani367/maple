@@ -1,10 +1,10 @@
 [package]
-name = "repolens"
+name = "repoprism"
 version = "0.1.0"
 edition = "2024"
 description = "A fast, local repo map, wiki, and context pack generator."
 license = "MIT"
-repository = "https://github.com/Rani367/repolens"
+repository = "https://github.com/Rani367/repoprism"
 
 [dependencies]
 anyhow = "1.0.98"
