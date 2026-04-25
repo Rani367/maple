@@ -2,7 +2,7 @@
 
 ## Goal
 
-Launch RepoPrism in a way that maximizes GitHub stars.
+Launch Maple in a way that maximizes GitHub stars.
 
 ## Deliverables
 

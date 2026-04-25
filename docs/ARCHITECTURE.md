@@ -38,10 +38,10 @@ Future workspace split:
 
 ```text
 crates/
-  repoprism-cli/
-  repoprism-core/
-  repoprism-lang/
-  repoprism-web/
+  maple-cli/
+  maple-core/
+  maple-lang/
+  maple-web/
 ```
 
 Only split into a workspace when the single crate becomes painful.
@@ -59,8 +59,8 @@ Responsibilities:
 Cache location:
 
 ```text
-~/Library/Caches/repoprism/repos/
-~/.cache/repoprism/repos/
+~/Library/Caches/maple/repos/
+~/.cache/maple/repos/
 ```
 
 ## Scanner

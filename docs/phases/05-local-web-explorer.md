@@ -2,11 +2,11 @@
 
 ## Goal
 
-Make RepoPrism visually impressive enough to earn stars from screenshots alone.
+Make Maple visually impressive enough to earn stars from screenshots alone.
 
 ## Deliverables
 
-- `repoprism serve .`
+- `maple serve .`
 - embedded local web server
 - overview page
 - graph explorer
@@ -41,7 +41,7 @@ Make RepoPrism visually impressive enough to earn stars from screenshots alone.
 
 ## Acceptance Criteria
 
-- `repoprism serve . --open` opens a browser.
+- `maple serve . --open` opens a browser.
 - UI works for this repo and one large public repo.
 - Static export can be shared as a folder.
 - README has a strong screenshot or GIF.

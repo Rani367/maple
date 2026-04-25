@@ -2,12 +2,12 @@
 
 ## One Line
 
-RepoPrism turns any repository into a local architecture map, repo wiki, and
+Maple turns any repository into a local architecture map, repo wiki, and
 context pack in seconds.
 
 ## Positioning
 
-RepoPrism should feel like a local, single-binary blend of GitDiagram, DeepWiki,
+Maple should feel like a local, single-binary blend of GitDiagram, DeepWiki,
 and Repomix:
 
 - GitDiagram style visual clarity.
@@ -17,6 +17,11 @@ and Repomix:
 
 The product should not be positioned as a generic static analyzer. It should be
 positioned as a fast way to understand an unfamiliar repo.
+
+## Naming
+
+Use `Maple` for the product name, `maple` for the command and GitHub repository,
+and `maple-cli` where the plain package name is unavailable.
 
 ## Audience
 
@@ -62,8 +67,8 @@ Secondary users:
 
 Early project metrics:
 
-- `repoprism .` produces a useful summary in under 5 seconds on small repos.
-- `repoprism github.com/owner/repo` works with no extra setup.
+- `maple .` produces a useful summary in under 5 seconds on small repos.
+- `maple github.com/owner/repo` works with no extra setup.
 - README demo communicates the product in under 10 seconds.
 - First release has binaries for macOS, Linux, and Windows.
 
@@ -72,4 +77,3 @@ GitHub-star metrics:
 - 500 stars: CLI, context pack, and README demo are useful.
 - 2,000 stars: local web explorer and GitHub URL workflow feel polished.
 - 10,000 stars: hosted demo, browser extension, and viral URL trick exist.
-

@@ -77,7 +77,7 @@ documents
 
 ### Scan Report
 
-Used by `repoprism scan --json`.
+Used by `maple scan --json`.
 
 ```json
 {
@@ -95,7 +95,7 @@ Used by `repoprism scan --json`.
 
 ### Repo Map
 
-Used by `repoprism map --json`.
+Used by `maple map --json`.
 
 ```json
 {
@@ -114,7 +114,7 @@ Used by `repoprism map --json`.
 
 ### Context Pack
 
-Used by `repoprism pack`.
+Used by `maple pack`.
 
 ```json
 {

@@ -37,8 +37,8 @@ Turn extracted facts into an architecture map that highlights what matters.
 
 ## Acceptance Criteria
 
-- `repoprism map .` shows important files and why.
+- `maple map .` shows important files and why.
 - Cycles are detected in fixture repos.
 - Reading path is stable and plausible.
-- Ranking output is useful on `repoprism` itself and `affected`.
+- Ranking output is useful on `maple` itself and `affected`.
 

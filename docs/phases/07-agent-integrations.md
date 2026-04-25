@@ -2,7 +2,7 @@
 
 ## Goal
 
-Make RepoPrism useful for AI coding workflows while keeping the product useful
+Make Maple useful for AI coding workflows while keeping the product useful
 without AI.
 
 ## Deliverables
@@ -14,7 +14,7 @@ without AI.
 
 ## Implementation Tasks
 
-1. Improve `repoprism pack`.
+1. Improve `maple pack`.
 2. Add profiles:
    - `agent`
    - `small-context`

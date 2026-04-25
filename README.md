@@ -1,17 +1,17 @@
-# RepoPrism
+# Maple
 
 Understand any repository in seconds.
 
-RepoPrism is a fast, local, single-binary tool that turns a codebase into a map,
+Maple is a fast, local, single-binary tool that turns a codebase into a map,
 wiki, and AI-ready context pack. It starts as a Rust CLI and will grow into a
 beautiful local web view for exploring architecture, important files, entry
 points, tests, and dependencies.
 
 ```sh
-repoprism scan .
-repoprism scan github.com/zed-industries/zed
-repoprism serve .
-repoprism pack .
+maple scan .
+maple scan github.com/zed-industries/zed
+maple serve .
+maple pack .
 ```
 
 ## Vision
@@ -32,6 +32,9 @@ repository while respecting `.gitignore`.
 cargo run -- scan .
 cargo run -- scan . --json
 ```
+
+The GitHub project and CLI are named `maple`. Where a package namespace already
+uses that name, such as crates.io, use `maple-cli`.
 
 ## Project Docs
 

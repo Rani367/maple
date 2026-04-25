@@ -2,7 +2,7 @@
 
 ## Goal
 
-Make RepoPrism excellent at finding and describing files before deeper language
+Make Maple excellent at finding and describing files before deeper language
 intelligence exists.
 
 ## Deliverables
@@ -39,8 +39,8 @@ intelligence exists.
 
 ## Acceptance Criteria
 
-- `repoprism scan .` works locally.
-- `repoprism scan github.com/Rani367/affected` clones and scans.
+- `maple scan .` works locally.
+- `maple scan github.com/Rani367/affected` clones and scans.
 - Generated folders are skipped by default.
 - Scan output is deterministic across runs.
 - Errors explain what the user should do next.

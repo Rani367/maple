@@ -6,7 +6,7 @@ Make the repository pleasant to build, test, and extend.
 
 ## Deliverables
 
-- Keep the current `repoprism` binary compiling.
+- Keep the current `maple` binary compiling.
 - Move CLI parsing into `src/cli.rs`.
 - Add `src/config.rs` for defaults and future config files.
 - Add `src/error.rs` only if `anyhow` becomes too loose.
@@ -17,7 +17,7 @@ Make the repository pleasant to build, test, and extend.
 ## Implementation Tasks
 
 1. Create modules without changing behavior.
-2. Add integration tests for `repoprism scan . --json`.
+2. Add integration tests for `maple scan . --json`.
 3. Add sample fixture repos:
    - tiny Rust crate
    - tiny TypeScript app

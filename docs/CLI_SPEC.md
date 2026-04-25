@@ -10,7 +10,7 @@
 
 ## Commands
 
-### `repoprism scan [target]`
+### `maple scan [target]`
 
 Scans a repository and prints a terminal summary.
 
@@ -23,7 +23,7 @@ Options:
 --no-gitignore         ignore ignore files
 ```
 
-### `repoprism map [target]`
+### `maple map [target]`
 
 Builds a structural repository map.
 
@@ -36,7 +36,7 @@ Outputs:
 - cycles
 - test relationships
 
-### `repoprism pack [target]`
+### `maple pack [target]`
 
 Generates AI-friendly context.
 
@@ -49,16 +49,16 @@ Options:
 --profile agent|human|review|docs
 ```
 
-### `repoprism wiki [target]`
+### `maple wiki [target]`
 
 Generates human documentation.
 
 Outputs:
 
 - `repo-map.md`
-- optional `docs/repoprism/` wiki folder
+- optional `docs/maple/` wiki folder
 
-### `repoprism serve [target]`
+### `maple serve [target]`
 
 Starts the local web explorer.
 
@@ -70,7 +70,7 @@ Options:
 --no-open
 ```
 
-### `repoprism export [target]`
+### `maple export [target]`
 
 Creates a static HTML export.
 
@@ -81,7 +81,7 @@ Options:
 --embed-assets
 ```
 
-### `repoprism cache`
+### `maple cache`
 
 Manages cloned GitHub repos and indexes.
 

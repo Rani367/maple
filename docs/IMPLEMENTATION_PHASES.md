@@ -1,6 +1,6 @@
 # Implementation Phases
 
-RepoPrism should be built in phases where each phase produces a demoable product.
+Maple should be built in phases where each phase produces a demoable product.
 
 ## Phase 00: Foundation
 
@@ -19,7 +19,7 @@ Details: [Phase 00](phases/00-foundation.md)
 
 ## Phase 01: Repository Ingestion
 
-Goal: make `repoprism scan` excellent for local directories and GitHub repos.
+Goal: make `maple scan` excellent for local directories and GitHub repos.
 
 Deliverables:
 
@@ -79,7 +79,7 @@ Goal: make the product visually impressive.
 
 Deliverables:
 
-- local `repoprism serve`
+- local `maple serve`
 - overview page
 - graph page
 - file detail page
@@ -94,7 +94,7 @@ Goal: make the viral input path work.
 
 Deliverables:
 
-- `repoprism github.com/owner/repo`
+- `maple github.com/owner/repo`
 - full URL parsing
 - branch/ref support
 - caching and update behavior
@@ -104,7 +104,7 @@ Details: [Phase 06](phases/06-github-workflow.md)
 
 ## Phase 07: Agent Integrations
 
-Goal: make RepoPrism useful for AI coding tools without making AI mandatory.
+Goal: make Maple useful for AI coding tools without making AI mandatory.
 
 Deliverables:
 
@@ -117,7 +117,7 @@ Details: [Phase 07](phases/07-agent-integrations.md)
 
 ## Phase 08: Quality And Performance
 
-Goal: make RepoPrism trustworthy on real repositories.
+Goal: make Maple trustworthy on real repositories.
 
 Deliverables:
 

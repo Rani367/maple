@@ -39,8 +39,8 @@ Generate artifacts people will actually copy, commit, or feed into tools.
 
 ## Acceptance Criteria
 
-- `repoprism wiki . --output repo-map.md` produces readable docs.
-- `repoprism pack . --budget 50000` respects the budget approximately.
+- `maple wiki . --output repo-map.md` produces readable docs.
+- `maple pack . --budget 50000` respects the budget approximately.
 - Markdown output looks good on GitHub.
 - JSON output is stable enough for integrations.
 

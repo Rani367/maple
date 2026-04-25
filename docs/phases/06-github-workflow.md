@@ -24,9 +24,9 @@ Make the most viral input path work: paste a GitHub repo and get a map.
 4. Add helpful errors for private repos.
 5. Add `--refresh` and `--offline` behavior.
 6. Prepare examples:
-   - `repoprism github.com/zed-industries/zed`
-   - `repoprism github.com/rust-lang/rust`
-   - `repoprism github.com/vercel/next.js`
+   - `maple github.com/zed-industries/zed`
+   - `maple github.com/rust-lang/rust`
+   - `maple github.com/vercel/next.js`
 
 ## Hosted Demo Plan
 
@@ -36,7 +36,7 @@ can see the product before installing it.
 Possible later shape:
 
 ```text
-https://repoprism.dev/github.com/owner/repo
+https://maple.dev/github.com/owner/repo
 ```
 
 The hosted service should be optional and should not become required for local

@@ -1,10 +1,10 @@
-# RepoPrism Docs
+# Maple Docs
 
-This directory is the implementation map for RepoPrism.
+This directory is the implementation map for Maple.
 
 Start here:
 
-1. [Product plan](PRODUCT_PLAN.md) - what RepoPrism is, who it is for, and how it wins.
+1. [Product plan](PRODUCT_PLAN.md) - what Maple is, who it is for, and how it wins.
 2. [Architecture](ARCHITECTURE.md) - the planned internal modules and data flow.
 3. [CLI spec](CLI_SPEC.md) - command surface and expected behavior.
 4. [Data model](DATA_MODEL.md) - core repository graph and output artifacts.

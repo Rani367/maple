@@ -2,7 +2,7 @@
 
 ## Goal
 
-Make RepoPrism trustworthy on real repositories.
+Make Maple trustworthy on real repositories.
 
 ## Deliverables
 
